@@ -15,6 +15,7 @@ You can install the required packages using pip:
 
 ```bash
 pip install numpy pandas matplotlib tensorflow
+```
 Dataset
 The project uses the MNIST dataset, which should be in CSV format:
 
