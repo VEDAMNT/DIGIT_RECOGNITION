@@ -23,41 +23,41 @@ train.csv: Training data including pixel values and labels.
 test.csv: Testing data including pixel values and labels.
 The dataset files should be placed in the root directory of the project.
 
-Code Explanation
-Data Loading:
+## Code Explanation
 
+Data Loading:
 The dataset is loaded from CSV files using pandas.
 Training features (X_train) and labels (y_train) are separated.
 Testing features (X_test) are also extracted.
-Data Preprocessing:
 
+Data Preprocessing:
 Pixel values are normalized to the range [0, 1].
 Data is reshaped to add a channel dimension.
 Labels are one-hot encoded for training and evaluation.
-Model Definition:
 
+Model Definition:
 A Sequential model with three dense layers is created.
 The first layer flattens the input data, followed by two hidden layers with ReLU activation.
 The output layer uses the softmax activation function to predict digit classes.
-Model Training:
 
+Model Training:
 The model is compiled with the Adam optimizer and categorical crossentropy loss function.
 Training is performed with a validation split of 10%.
-Model Evaluation:
 
+Model Evaluation:
 The model is evaluated on the test set.
 Accuracy is printed to the console.
-Prediction:
 
+Prediction:
 An example prediction is made for the first image in the test set.
 The predicted digit is printed to the console.
-Visualization:
 
+Visualization:
 The example image is reshaped and displayed using matplotlib.
+
 Usage
 Ensure that train.csv and test.csv are in the project directory.
 Run the script:
-bash
-Copy code
-python script_name.py
+```bash
+python script_name.py```
 Replace script_name.py with the name of your Python file.
