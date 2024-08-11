@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/3f7c6e8f-ad9a-4df4-bd0c-111d8c130a15)
+
 # DIGIT_RECOGNITION
 # MNIST Digit Classification
 
