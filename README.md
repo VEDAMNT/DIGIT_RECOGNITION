@@ -59,5 +59,5 @@ Usage
 Ensure that train.csv and test.csv are in the project directory.
 Run the script:
 ```bash
-python script_name.py```
+python script_name.py
 Replace script_name.py with the name of your Python file.
